@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.site_header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/background_img/site_header_img.jpg") no-repeat center/cover;
+}
+
+.nav-link{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-item{
+    font-size: 1em;
+    list-style: none;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nav-item:hover{
+transform: scale(1.1);
+text-shadow: 0 0 20px whitesmoke;
+
+}
